@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('bg.jpg');
+}
+.container{
+    min-width: 290px;
+    max-width: 900px;
+    margin: 15px 10px;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h3{
+    margin: 10px 0;
+    color: orangered;
+}
+#date{
+    font-family: 'Yeon Sung', cursive;
+}
+#main-title{
+    margin: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+form input,
+form button{
+    width: 200px;
+    height: 35px;
+    border: 3px solid rgb(208, 208, 208);
+    padding: 0 5px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+form button{
+    width: 70px;
+}
+#name-country{
+    margin-top: 3rem;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.content{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.content .box{
+    min-width: 270px;
+    margin: 10px;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+.content .box:hover{
+    background: #eee4;
+}
+.content .box p{
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.confirmed h3,
+.confirmed i{
+    color: rgb(175, 160, 40);
+}
+.recovered h3,
+.recovered i{
+    color: rgb(0, 255, 0);
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+span {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+i {
+    color: orangered;
+}
+
+#confirmedd {
+    font-family: 'New Rocker', cursive;
+}
+
+#recoveredd {
+    font-family: 'New Rocker', cursive;
+}
+
+#deathss {
+    font-family: 'New Rocker', cursive;
+}
+
+
+.rainbow_text_animated {
+    background: linear-gradient(to right, #ff0000, #ff4000, #ff8000, #ffbf00, #ffff00, #bfff00, #80ff00, #40ff00, #00ff00, #00ff40, #00ff80, #00ffbf, #00ffff, #00bfff, #0080ff, #0040ff, #0000ff, #4000ff, #8000ff, #bf00ff, #ff00ff, #ff00bf, #ff0080, #ff0040, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+ border-color: red;
+    color: transparent;
+ text-align: center;
+    animation: rainbow_animation 10s ease-in-out infinite;
+   background-size: 400% 100%;
+ overflow: hidden;
+ }
+ @keyframes rainbow_animation {
+     0%,100% {
+         background-position: 0 0;
+        }
+
+     50% {
+     background-position: 100% 0;
+        }
+ }
+
+.gradient-border {
+    --borderWidth: 3px;
+    background: #1a0e02;
+    position: relative;
+    border-radius: 40px;
+}
+.gradient-border:hover {
+    background: white;
+}
+.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: 40px;
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.gradientt-border {
+    --borderWidth: 3px;
+    background: #1a0e02;
+    position: relative;
+    border-radius: 40px;
+}
+.gradientt-border:hover {
+    background: white;
+}
+.gradientt-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: 40px;
+    z-index: -1;
+    animation: animatedgradientt 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes animatedgradientt {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.chart {
+    margin-top: 5%;
+}
